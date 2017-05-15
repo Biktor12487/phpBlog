@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.section
+{
+	width: 100%;
+	float: left;
+	clear: both;
+}
+.container
+{
+	width: 980px;
+	margin:0 auto;
+}
+.navbar li 
+{
+	list-style: none;	
+	float: left;
+}
+.navbar
+{
+	float: right;
+}
+.navbar  a
+{
+	color: #fff;
+	font:700 16px Tahoma;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	text-align: center;
+}
+.navbar  a:hover
+{
+	background-color: rgb(199,199,199);
+}
+.navigation{
+	position: fixed;
+	top: 0;
+	background-color: rgb(47,47,47);
+	border-bottom: 2px solid rgb(181,0,0);
+}
+.header
+{
+	background-image: url("/images/1.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top: 41px;
+	height: 500px;
+	background-attachment: fixed;
+}
+.header h1
+{
+	font: 900 32px Tahoma;
+	padding: 100px 40px 30px 40px;
+	color: rgb(27,12,199);
+}
+.header h4
+{
+	font: 900 18px Tahoma;
+	padding: 10px 40px 30px 40px;
+	text-shadow: 0 0 4px grey;
+}
+.footer
+{
+	padding-top: 20px;
+	background-color: rgb(47,47,47);
+	border-top: 2px solid rgb(181,0,0);
+}
+.footer .container > .sector
+{
+	float: left;
+	width: 33.33%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+.socilaLinks a
+{
+	text-decoration: none;
+	color: #fff;
+	font: 400 14px Tahoma;
+}
+.socilaLinks  li
+{
+	list-style: none;
+}
+.copyright
+{
+	border-top: 1px solid #fff;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: rgb(210,210,210);
+	margin-top: 10px;
+	padding: 5px 0;
+}
+.footer .about
+{
+	color: #fff;
+	font: 400 12px Tahoma;
+}
+.content
+{
+	padding: 20px 0 ;
+}
+.content  .title
+{
+	color: blue;
+	font: 900 28px Tahoma;
+	text-align: center;
+	padding: 15px 0;
+	border-bottom: 1px solid grey;
+}
+.content .node
+{
+	width: 33.33%;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	float:left;
+	height: 400px;
+}
+.content .navNode
+{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.nodeLinks
+{
+	display: inline-block;
+}
+.nodeLinks a
+{
+	height: 30px;
+	width: 30px;
+	border: 1px solid #000;
+	display: block;
+	text-decoration: none;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 5px;
+	font:700 14px Tahoma;
+}
+.nodeLinks a:hover
+{
+	color: #fff;
+	background-color: grey;
+}
